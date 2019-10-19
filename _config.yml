@@ -1,2 +1,3 @@
 name: Luis Enrique Beltran Gonzalez
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
