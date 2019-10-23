@@ -2,3 +2,6 @@ name: Luis Enrique Beltran Gonzalez
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 theme: jekyll-theme-cayman
+github:
+  is_project_page: true
+  repository_url: https://github.com/luisebg
