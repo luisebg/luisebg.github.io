@@ -1,2 +1,2 @@
 # luisebg.github.io
-Personal web page of Luis Enrique Beltran Gonzalez
+Personal notes about physics, math & automotive stuff
