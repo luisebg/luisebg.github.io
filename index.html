@@ -3,6 +3,11 @@ layout: default
 title: Luis Enrique Beltran Gonzalez
 ---
 <div class="blurb">
-	<h1>Hi there, I'm Luis Beltran!</h1>
-	<p>I'm best known as the raccoon</a></p>
+	<h1>Latest notes</h1>
+	{% for post in site.posts limit:1 %}
+		<h2>{{ post.title }}</h2>
+		<h3>{{ post.subtitle }}</h3>
+		<img href={{ post.main_image }}>
+		<p style="max-width: 250ch;">{{ post.description }}</p>
+	{% endfor %}
 </div>
