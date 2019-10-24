@@ -4,10 +4,10 @@ title: Luis Enrique Beltran Gonzalez
 ---
 <div class="blurb">
 	<h1>Latest notes</h1>
-	{% for post in site.posts limit:1 %}
+	{% for post in site.posts limit:5 %}
 		<h2>{{ post.title }}</h2>
-		<h3>{{ post.subtitle }}</h3>
-		<p style="max-width: 250ch;">{{ post.description }}</p>
+		<h3>{{ post.date | date_to_string }} - {{ post.subtitle }}</h3>
+		<p>{{ post.description }}</p>
 	<hr>
 	{% endfor %}
 </div>
