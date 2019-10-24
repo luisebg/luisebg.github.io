@@ -2,7 +2,7 @@
 layout: post
 title: "First test post"
 subtitle: "Subtitle of my first test post"
-main_image: {{ site.url }}/assets/img/first_image.jpg
+main_image: "{{ site.url }}/assets/img/first_image.jpg"
 date: 2019-10-23
 ---
 
